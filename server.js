@@ -1,6 +1,6 @@
 var express = require('express');
 var app = express();
-
+// JSON response object
 var response = {};
 
 app.get('/*', function (req, res) {
